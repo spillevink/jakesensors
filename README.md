@@ -1,0 +1,13 @@
+# Goals
+- Software updates
+- Sensors
+  - Temperature
+  - Noise
+  - Light
+  - Humidity
+  - Weight
+  - Battery
+- Wireless
+- Tiny battery
+- 2.4G
+- Base station
