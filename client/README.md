@@ -3,57 +3,36 @@ PCB ART
  - Remove chip outlines in gerber export
  - https://www.youtube.com/watch?v=B_SbQeF83XU
 
-Verify connections / Schematic against original
-larger connection points
-Bill of materials
-Order
-Reflow oven
+# TODO
+- Fix silkscreen
+- Verify schematic
+- Verify PCB
 
+# Components
 
-Base station
-
-
-LEDS!
-- Battery indicator
-- Connected to base station
-- Paired
-
-BATTERY
->10 30 50 70 90
-
-STATUS
-ON FOUND CONNECTED MEASSURE SENDING
-
-DEBUG
-
-
-Sensors:
-- altitude,humidity,temp,preassure bme280 $3.6 https://www.aliexpress.com/item/Free-Shipping-5pcs-lot-BME280/32760014064.html?ws_ab_test=searchweb0_0,searchweb201602_2_10091_10090_10088_10089,searchweb201603_1&btsid=3003620a-2046-47a8-afe0-db00dd9094dc
-- Proximity,light APDS-9930 $1.1 https://www.aliexpress.com/item/10PCS-APDS-9930-APDS-9930-DFN8/32474091709.html?ws_ab_test=searchweb0_0,searchweb201602_2_10091_10090_10088_10089,searchweb201603_1&btsid=087ebae2-6169-4e48-9e72-5c4663bd8e79
-- Gyro $0.9 https://www.aliexpress.com/item/SMD-ENC-03RC-gyro-sensor-angular-rate-sensor-original-authentic/32693378811.html
-- acceleration bma220 $0.6 https://www.aliexpress.com/item/Free-shipping-10PCS-BMA220/2054437599.html?ws_ab_test=searchweb0_0,searchweb201602_2_10091_10090_10088_10089,searchweb201603_1&btsid=234f4f1f-b872-49d8-b6ba-c7f1f2095012
-- Mic ?? $0.24 https://www.aliexpress.com/item/20-Pcs-Cylindrical-SMD-Electret-Condenser-Microphone-Pick-up-6mmx5mm-Replacement/32436515516.html?ws_ab_test=searchweb0_0,searchweb201602_2_10091_10090_10088_10089,searchweb201603_1&btsid=401adafe-093e-498f-875c-196a4ab48496
-- Compass $2.5
-- Button 
-- motion
-
-ATMEGA328P-MU (QFN) $1.1 https://www.aliexpress.com/item/Free-shipping-10PCS-ATMEGA328P-MU-ATMEGA328P-MEGA328P-MEGA328P-MU-in-stock/1897412463.html?ws_ab_test=searchweb0_0,searchweb201602_2_10091_10090_10088_10089,searchweb201603_1&btsid=f1937e20-f144-49e6-8099-f23d87ae8902
-
-easyEDA
-
-4.2
-
-
-100mm Max* 100mm Max
-Layers: 2
-PCB Thickness: 1.6mm
-PCB Quantity: 5
-PCB Color: Green
-Surface Finish: HASL(with lead)
-Copper Weight: 1oz.
-Different Design in Panel: 1
-Material Details: FR4-Standard Tg 140C
-Smallest Holes: 0.30mm↑
-Min. Tracing/Spacing: 6mil↑ / 0.152mm↑
-
-https://www.aliexpress.com/popular/gyro-smd.html
+| Schematic | Name                | Qty  |   Price | Min order | URL                   |
+| --------- | ------------------- | ----:| -------:| --------- | --------------------- |
+| BT1       | 2032 battery holder |    1 | $0.1275 |    $12.75 | https://goo.gl/5C2sYP |
+| C1,C2     | 0402 CAP 22pF       |    2 |  $0.005 |     $0.50 | https://goo.gl/PSykCj |
+| C3        | 0402 CAP 33nF       |    1 |  $0.005 |     $0.50 | https://goo.gl/7o5s7B |
+| C4        | 0402 CAP 2.2nF      |    1 |  $0.005 |     $0.50 | https://goo.gl/f3qeTO |
+| C5        | 0402 CAP 4.7pF      |    1 |  $0.005 |     $0.50 | https://goo.gl/6arnk5 |
+| C6        | 0402 CAP 1.0pF      |    1 |  $0.005 |     $0.50 | https://goo.gl/hxzYfs |
+| C7        | 0402 CAP 1.5pF      |    1 |  $0.005 |     $0.50 | https://goo.gl/JcT6Eq |
+| C8        | 1206 CAP 100uf      |    1 |  $0.041 |     $4.10 | https://goo.gl/bVkBAX |
+| IC1       | BME280              |    1 |   $3.60 |    $17.00 | https://goo.gl/V5KRjY |
+| JP1       | 1X3 pin header      |    1 | $0.0228 |     $2.28 | https://goo.gl/KC9M8a |
+| L1        | 0402 3.9nH          |    1 |   $1.00 |     $0.01 | https://goo.gl/X1wA1J |
+| L2        | 0402 2.7nH          |    1 |   $1.00 |     $0.01 | https://goo.gl/8045sU |
+| L3        | 0402 8.2nH          |    1 |   $1.00 |     $0.01 | https://goo.gl/XCH1SU |
+| LED1      | 0402 LED White      |    1 |   $5.12 |   $0.0512 | https://goo.gl/aWK7NA |
+| P1        | 2x3 pin header      |    1 | $0.0352 |     $3.52 | https://goo.gl/UTnZWO |
+| Q1        | CRYSTAL 5X3 16MHz   |    1 |   $0.16 |     $8.00 | https://goo.gl/nwc8Lp |
+| R1        | 0402 RES 1M         |    1 | $0.0025 |     $0.25 | https://goo.gl/HLSciy |
+| R2        | 0402 RES 22K        |    1 | $0.0038 |     $0.38 | https://goo.gl/kbAoua |
+| S1        | 6x3.5mm switch      |    1 |  $0.704 |     $6.86 | https://goo.gl/Hy7T2Z |
+| U1        | NRF24 QFN20         |    1 |   $0.60 |    $12.00 | https://goo.gl/lsO0Qg |
+| U2        | ATMEGA328P-MU (QFN) |    1 |  $1.045 |    $10.45 | https://goo.gl/zReri2 |
+| U3        | APDS-9930           |    1 |   $1.10 |    $11.00 | https://goo.gl/BRHXgw |
+| U4        | RPI-1031            |    1 |   $0.90 |    $18.00 | https://goo.gl/n29J7n |
+| Y1        | ANT-2.45-CHP-x      |    1 | 

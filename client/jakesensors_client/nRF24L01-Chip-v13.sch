@@ -7102,6 +7102,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="U4" library="SparkFun-Sensors" deviceset="RPI-103X" device=""/>
 <part name="P+7" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
+<part name="R3" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="39"/>
 </parts>
 <sheets>
 <sheet>
@@ -7173,7 +7174,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="GND14" gate="1" x="96.52" y="93.98"/>
 <instance part="U4" gate="G$1" x="114.3" y="162.56"/>
 <instance part="P+7" gate="1" x="88.9" y="165.1"/>
-<instance part="GND16" gate="1" x="139.7" y="165.1"/>
+<instance part="GND16" gate="1" x="157.48" y="165.1"/>
+<instance part="R3" gate="G$1" x="142.24" y="167.64"/>
 </instances>
 <busses>
 </busses>
@@ -7293,9 +7295,9 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="83.82" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="CATHODE"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="132.08" y1="167.64" x2="139.7" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="167.64" x2="157.48" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -7687,6 +7689,13 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="U2" gate="A" pin="PB7"/>
 <wire x1="60.96" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="78.74" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="CATHODE"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="167.64" x2="137.16" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
