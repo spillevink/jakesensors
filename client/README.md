@@ -22,12 +22,13 @@ PCB ART
 | C8        | 1206 CAP 100uf      |    1 |  $0.041 |     $4.10 | https://goo.gl/bVkBAX |
 | IC1       | BME280              |    1 |   $3.60 |    $17.00 | https://goo.gl/V5KRjY |
 | JP1       | 1X3 pin header      |    1 | $0.0228 |     $2.28 | https://goo.gl/KC9M8a |
-| L1        | 0402 3.9nH          |    1 |   $1.00 |     $0.01 | https://goo.gl/X1wA1J |
-| L2        | 0402 2.7nH          |    1 |   $1.00 |     $0.01 | https://goo.gl/8045sU |
-| L3        | 0402 8.2nH          |    1 |   $1.00 |     $0.01 | https://goo.gl/XCH1SU |
-| LED1      | 0402 LED White      |    1 |   $5.12 |   $0.0512 | https://goo.gl/aWK7NA |
+| L1        | 0402 3.9nH          |    1 |   $0.01 |     $1.00 | https://goo.gl/X1wA1J |
+| L2        | 0402 2.7nH          |    1 |   $0.01 |     $1.00 | https://goo.gl/8045sU |
+| L3        | 0402 8.2nH          |    1 |   $0.01 |     $1.00 | https://goo.gl/XCH1SU |
+| LED1      | 0402 LED White      |    1 | $0.0512 |     $5.12 | https://goo.gl/aWK7NA |
 | P1        | 2x3 pin header      |    1 | $0.0352 |     $3.52 | https://goo.gl/UTnZWO |
 | Q1        | CRYSTAL 5X3 16MHz   |    1 |   $0.16 |     $8.00 | https://goo.gl/nwc8Lp |
+| R1        | 0402 RES 39         |    1 | $0.0025 |     $0.25 |  |
 | R1        | 0402 RES 1M         |    1 | $0.0025 |     $0.25 | https://goo.gl/HLSciy |
 | R2        | 0402 RES 22K        |    1 | $0.0038 |     $0.38 | https://goo.gl/kbAoua |
 | S1        | 6x3.5mm switch      |    1 |  $0.704 |     $6.86 | https://goo.gl/Hy7T2Z |
