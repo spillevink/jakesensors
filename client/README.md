@@ -1,5 +1,6 @@
 # Todo
 
+- Reset pullup
 - NRF24 gnd+vcc
 - replace NRF24 mini part
 
